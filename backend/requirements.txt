@@ -1,0 +1,42 @@
+# Web Framework
+Flask==3.0.3
+Flask-SQLAlchemy==3.1.1
+Flask-JWT-Extended==4.6.0
+Flask-Migrate==4.0.7
+Flask-CORS==4.0.1
+flask-marshmallow==1.2.1
+marshmallow-sqlalchemy==1.1.0
+
+# Database
+psycopg2-binary==2.9.9
+SQLAlchemy==2.0.30
+alembic==1.13.1
+
+# Task Queue
+celery==5.4.0
+redis==5.0.4
+
+# ML / NLP
+sentence-transformers==3.0.1
+faiss-cpu==1.8.0
+spacy==3.7.5
+scikit-learn==1.5.0
+xgboost==2.0.3
+numpy==1.26.4
+PyMuPDF==1.24.5
+
+# Auth / Security
+bcrypt==4.1.3
+PyJWT==2.8.0
+
+# HTTP / Utils
+requests==2.32.3
+python-dotenv==1.0.1
+gunicorn==22.0.0
+marshmallow==3.21.3
+
+# File Storage
+boto3==1.34.131
+
+# OpenAI
+openai==1.35.0
